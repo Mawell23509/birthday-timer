@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    color: #fdf0d5;
+    overflow-x: hidden;
+}
+
+body {
+    background: rgb(0,119,182);
+    background: linear-gradient(90deg, rgba(0,119,182,1) 0%, rgba(0,150,199,1) 47%, rgba(0,180,216,1) 88%);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.timer__container {
+    margin-top: 50px;
+}
+
+.text__center {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 24px;
+    text-wrap: none;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    background: #8ecae6;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    font-size: 38px;
+}
+
+span {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.dividing {
+    font-size: 38px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.item__text {
+    display: block;
+    width: 100px;
+    /*height: 25px;*/
+    background: #000;
+    font-size: 18px;
+}
+
+.footer {
+    background: #000;
+    margin-top: 75px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+
+.footer__list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.footer__list li a:hover {
+    text-decoration: none;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 1381.98px) {
+    .container {
+        max-width: 1070px;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 990.98px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        max-width: none;
+    }
+
+    .item {
+        width: 80px;
+        font-size: 32px;
+    }
+
+    .item__text {
+        width: 80px;
+    }
+
+    span {
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+
+    .dividing {
+        font-size: 32px;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+
+}
+
+@media (max-width: 387.98px) {
+    .container {
+        max-width: none;
+    }
+
+    .item {
+        width: 65px;
+        font-size: 28px;
+    }
+
+    span {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .item__text {
+        width: 65px;
+        font-size: 16px;
+    }
+
+    .footer {
+        margin-top: 75px;
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+}
