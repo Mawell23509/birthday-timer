@@ -6,7 +6,7 @@ const updateCurrentDate = setInterval(() => {
 const timersData = [
     {
         name: 'Міша',
-        dateOfBirth: new Date(2006, 11, 23, 0, 0),
+        dateOfBirth: new Date(2006, 10, 23, 0, 0),
         dataIndex: 0,
         textDays: null,
         textHours: null,
@@ -106,7 +106,7 @@ const timersData = [
     },
     {
         name: 'Нет зверя сільнєє кітайца, саша дота сосі нам яйца',
-        dateOfBirth: new Date(2006, 11, 1, 0, 0),
+        dateOfBirth: new Date(2006, 10, 1, 0, 0),
         dataIndex: 4,
         textDays: null,
         textHours: null,
